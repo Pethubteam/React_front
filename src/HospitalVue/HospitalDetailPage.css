@@ -1,0 +1,109 @@
+/* src/HospitalVue/HospitalDetailPage.css */
+
+.hospital-detail-page {
+  padding: 16px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.back-button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hospital-info {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.hospital-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.hospital-details {
+  flex: 1;
+}
+
+.hospital-details h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.heart {
+  color: red;
+}
+
+.info-item {
+  display: flex;
+  margin-top: 8px;
+}
+
+.info-label {
+  font-weight: bold;
+  color: #555;
+  width: 80px;
+}
+
+.info-value {
+  color: #555;
+}
+
+.reviews-section {
+  margin-top: 24px;
+}
+
+.reviews-section h4 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.review {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+}
+
+.review-rating {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.review-details p {
+  margin: 4px 0;
+  color: #555;
+}
+
+
+ 

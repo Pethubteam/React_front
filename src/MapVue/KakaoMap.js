@@ -96,7 +96,7 @@ const KakaoMap = ({ hospitals, onHospitalClick }) => {
   }, [userPosition, initializeMap]);
 
   return (
-    <div id="map" className="w-full h-80 md:h-[1500px] lg:h-[900px] mx-auto"></div>
+    <div id="map" className="w-full h-full md:h-[600px] lg:h-[800px] xl:h-[900px]"></div>
   );
 };
 
